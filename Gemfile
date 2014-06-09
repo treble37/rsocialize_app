@@ -27,9 +27,34 @@ gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+gem 'rsocialize', :git => "git://github.com/treble37/rsocialize.git", :branch => "next-version"
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+end
+
+group :development do
+  gem 'sextant'
+end
+
+group :development, :test do
+  gem "rspec-rails", '~> 3.0.1'
+  gem 'guard-rspec'
+  gem 'childprocess'
+  gem 'pry'
+  gem 'spring-commands-rspec'
+end
+ 
+group :test do
+  gem "factory_girl_rails"
+  gem "cucumber-rails"
+  gem "capybara"
+  gem "database_cleaner"
+  gem "launchy"
+  gem "poltergeist", "~> 1.5.0"
+  gem "vcr"
+  gem "webmock"
 end
 
 # Use ActiveModel has_secure_password
