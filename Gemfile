@@ -27,7 +27,7 @@ gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-gem 'rsocialize', :git => "git://github.com/treble37/rsocialize.git", :branch => "next-version"
+gem 'rsocialize', :git => "git://github.com/treble37/rsocialize.git", :branch => "rails-4.1-stable"
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
