@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.1'
+gem 'rails', '~> 4.2.1'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -27,7 +27,7 @@ gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder'
 
-gem 'rsocialize', :git => "git://github.com/treble37/rsocialize.git", :branch => "rails-4.1-stable"
+gem 'rsocialize', '0.0.5'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

@@ -1,14 +1,3 @@
-GIT
-  remote: git://github.com/treble37/rsocialize.git
-  revision: c182cbd8b2ce63862bf1a4b65c51c4b8a37d987a
-  branch: rails-4.1-stable
-  specs:
-    rsocialize (0.0.4)
-      actionpack (>= 3.2.8)
-      activesupport (>= 3.2.8)
-      curb (~> 0.8.2)
-      nokogiri (>= 1.5.5)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -187,6 +176,11 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     rdoc (4.2.0)
+    rsocialize (0.0.5)
+      actionpack (>= 3.2.8)
+      activesupport (>= 3.2.8)
+      curb (~> 0.8.2)
+      nokogiri (>= 1.5.5)
     rspec (3.2.0)
       rspec-core (~> 3.2.0)
       rspec-expectations (~> 3.2.0)
@@ -269,8 +263,8 @@ DEPENDENCIES
   launchy
   poltergeist (~> 1.5.0)
   pry
-  rails (= 4.2.1)
-  rsocialize!
+  rails (~> 4.2.1)
+  rsocialize (= 0.0.5)
   rspec-rails
   sass-rails
   sdoc
@@ -280,3 +274,6 @@ DEPENDENCIES
   uglifier (>= 1.3.0)
   vcr
   webmock
+
+BUNDLED WITH
+   1.10.6
